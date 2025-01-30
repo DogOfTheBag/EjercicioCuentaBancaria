@@ -23,7 +23,7 @@ public class Menu {
             ops[i].vis();
         }
     }
-    /*pequeño metodo que limpia la pantalla de la consola*/
+    /*pequeño metodo que "limpia" la pantalla de la consola*/
     private void CLS(){
         for (int i = 0; i < 50; i++) {
             System.out.println(" ");
@@ -72,6 +72,9 @@ public class Menu {
 
                 /*el default lo que hace es que cualquier cosa que ponga
                 el usuario que no sean las opciones anteriores muestre eso*/
+            case 5:
+                System.out.println("Cerrando la aplicacion...");
+                break;
             default:
                 System.out.println("La introduccion introducida no es valida");
                 Thread.sleep(1000);
