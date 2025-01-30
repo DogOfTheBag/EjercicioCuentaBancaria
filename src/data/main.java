@@ -36,7 +36,7 @@ public class main {
         m.gestionarMenu(eleccion);
         }while(eleccion !=5);
         
-        System.out.println("¡Que tenga un buen dia!");
+        System.out.println("Que tenga un buen dia!");
     
     }
     
